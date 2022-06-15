@@ -4,7 +4,7 @@
   <uuid>95ac9b84-5ff0-499e-8405-a0dc6fcea1be</uuid>
   <locale>en_US</locale>
   <definition><![CDATA[if
-	the Age of 'Client Info' is more than 18
+	the Age of 'Client Info' is more than 12
 then
 	set decision to the Price of 'Product Info' * 'Promo Values' ;
 else
