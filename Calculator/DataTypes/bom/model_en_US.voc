@@ -1,0 +1,30 @@
+
+# Client
+Client#concept.label = Client
+Client.Client(java.lang.Long,double,double)#phrase.navigation = a new {Client} where {0, Age} {1, Credit Score} {2, Salary}
+Client.age#phrase.action = set the Age of {this} to {Age}
+Client.age#phrase.addition_setter = add {Age} to the Age of {this}
+Client.age#phrase.navigation = {Age} of {this}
+Client.age#phrase.subtraction_setter = subtract {Age} from the Age of {this}
+Client.creditScore#phrase.action = set the Credit Score of {this} to {Credit Score}
+Client.creditScore#phrase.addition_setter = add {Credit Score} to the Credit Score of {this}
+Client.creditScore#phrase.navigation = {Credit Score} of {this}
+Client.creditScore#phrase.subtraction_setter = subtract {Credit Score} from the Credit Score of {this}
+Client.salary#phrase.action = set the Salary of {this} to {Salary}
+Client.salary#phrase.addition_setter = add {Salary} to the Salary of {this}
+Client.salary#phrase.navigation = {Salary} of {this}
+Client.salary#phrase.subtraction_setter = subtract {Salary} from the Salary of {this}
+
+# Product
+Product#concept.label = Product
+Product.Product(double)#phrase.navigation = a new {Product} where {0, Price}
+Product.price#phrase.action = set the Price of {this} to {Price}
+Product.price#phrase.addition_setter = add {Price} to the Price of {this}
+Product.price#phrase.navigation = {Price} of {this}
+Product.price#phrase.subtraction_setter = subtract {Price} from the Price of {this}
+
+# PromoCodes
+PromoCodes#concept.label = PromoCodes
+PromoCodes.bronze#instance.label = Bronze
+PromoCodes.gold#instance.label = Gold
+PromoCodes.silver#instance.label = Silver

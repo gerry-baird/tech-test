@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" rulesetName="operation" targetRuleProjectName="PriceCalc">
+  <name>PriceCalc</name>
+  <uuid>dd1b8ca4-3029-4b7f-ac6a-8615fd545a10</uuid>
+  <decisionModel href="../rules/decisionModel.dmo#bedac86a-fa75-4724-ba78-a22dc628ebac"/>
+  <targetRuleProject href="../../PriceCalc#fb260f78-dac8-4439-a290-9237f51e750f"/>
+</com.ibm.rules.studio.model.decisionservice:Operation>

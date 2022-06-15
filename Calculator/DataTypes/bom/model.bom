@@ -1,0 +1,64 @@
+
+
+public class Client
+        property "ads.typeId" "1"
+        property "com.fasterxml.jackson.annotation.JsonTypeName" "Client"
+        property "de.generated" "true"
+{
+    public java.lang.Long age
+                property "ads.attributeId" "1"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "Age"
+                property update "true";
+    public double creditScore
+                property "ads.attributeId" "2"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "CreditScore"
+                property update "true";
+    public double salary
+                property "ads.attributeId" "3"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "Salary"
+                property update "true";
+    public Client(java.lang.Long age, double creditScore, double salary)
+                property autoExpand "true"
+                property beanConstructor "true"
+                property groups "BALA"
+                property prototype "true";
+    public Client()
+                property "dataio.default" "true";
+}
+
+public class Product
+        property "ads.typeId" "3"
+        property "com.fasterxml.jackson.annotation.JsonTypeName" "Product"
+        property "de.generated" "true"
+{
+    public double price
+                property "ads.attributeId" "1"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "Price"
+                property update "true";
+    public Product(double price)
+                property autoExpand "true"
+                property beanConstructor "true"
+                property groups "BALA"
+                property prototype "true";
+    public Product()
+                property "dataio.default" "true";
+}
+
+public class PromoCodes
+        extends java.lang.Enum
+        property "ads.typeId" "2"
+        property "com.fasterxml.jackson.annotation.JsonTypeName" "PromoCodes"
+        property "de.generated" "true"
+{
+    domain {static bronze, static silver, static gold}
+    public static final readonly PromoCodes bronze
+                property "ads.attributeId" "1"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "Bronze";
+    public static final readonly PromoCodes gold
+                property "ads.attributeId" "3"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "Gold";
+    public static final readonly PromoCodes silver
+                property "ads.attributeId" "2"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "Silver";
+}
+
