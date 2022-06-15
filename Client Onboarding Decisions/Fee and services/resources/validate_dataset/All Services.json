@@ -7,10 +7,7 @@
   },
   "services": {
     "servicesRequested": [
-      "Employee Benefits Plan",
-      "Mental Health Care",
-      "Onsite Medical Testing",
-      "Virtual Medical Assistance"
+      "Employee Benefits Plan"
     ],
     "Industry": "Healthcare"
   }
